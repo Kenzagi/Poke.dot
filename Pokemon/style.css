@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #021212;
+}
+
+.container{
+	background: #1B221E;
+	color: #FFFAFF;
+	min-width: 500px;
+	min-height: 400px;
+	margin-top: 150px;
+	padding: 50px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: start;
+	border-radius: 25px;
+}
+
+.searchField{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+}
+
+.searchField input{
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	width: 100%;
+	font-size: 14px;
+	padding: 12px 18px;
+	color: #021212;
+}
+
+.searchField .search-btn{
+	padding: 25px;
+	background: #FFFAFF;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius: 50px;
+	outline: none;
+	border: none;
+}
+
+h1{
+	font-size: 35px;
+	padding: 12px 0;
+	text-transform: capitalize;
+}
+
+#pokemonSprite{
+	width: 200px;
+	height: auto;
+}
+
+.attributes{
+	display: flex;
+	gap: 20px;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.fade{
+	opacity: 1;
+	transition: opacity 5s;
+}
